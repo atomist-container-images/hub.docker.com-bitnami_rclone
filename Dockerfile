@@ -1,12 +1,24 @@
-# Tags: latest, 1.58.0-debian-10-r3, 1.58.0, 1-debian-10, 1
+# Tags: latest, 1.58.0-debian-10-r7, 1.58.0, 1-debian-10, 1
 FROM bitnami/rclone:latest
-FROM bitnami/rclone:1.58.0-debian-10-r3
+FROM bitnami/rclone:1.58.0-debian-10-r7
 FROM bitnami/rclone:1.58.0
 FROM bitnami/rclone:1-debian-10
 FROM bitnami/rclone:1
 
 # Tags: _
 FROM bitnami/rclone:_
+
+# Tags: 1.58.0-debian-10-r6
+FROM bitnami/rclone:1.58.0-debian-10-r6
+
+# Tags: 1.58.0-debian-10-r5
+FROM bitnami/rclone:1.58.0-debian-10-r5
+
+# Tags: 1.58.0-debian-10-r4
+FROM bitnami/rclone:1.58.0-debian-10-r4
+
+# Tags: 1.58.0-debian-10-r3
+FROM bitnami/rclone:1.58.0-debian-10-r3
 
 # Tags: 1.58.0-debian-10-r2
 FROM bitnami/rclone:1.58.0-debian-10-r2
@@ -83,18 +95,3 @@ FROM bitnami/rclone:1.57.0-debian-10-r119
 
 # Tags: 1.57.0-debian-10-r118
 FROM bitnami/rclone:1.57.0-debian-10-r118
-
-# Tags: 1.57.0-debian-10-r117
-FROM bitnami/rclone:1.57.0-debian-10-r117
-
-# Tags: 1.57.0-debian-10-r116
-FROM bitnami/rclone:1.57.0-debian-10-r116
-
-# Tags: 1.57.0-debian-10-r115
-FROM bitnami/rclone:1.57.0-debian-10-r115
-
-# Tags: 1.57.0-debian-10-r114
-FROM bitnami/rclone:1.57.0-debian-10-r114
-
-# Tags: 1.57.0-debian-10-r113
-FROM bitnami/rclone:1.57.0-debian-10-r113
